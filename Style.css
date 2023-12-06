@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: black;
+    color: #fff;
+}
+
+.title {
+    font-size: 2.5em;
+}
+
+.subtitle {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.project-card {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.social-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: hsla(288, 100%, 8%, 1);
+}
+
+.social-box {
+    display: flex; /* Muestra las cajas en línea */
+}
+
+.icon-box {
+    margin-right: 20px; /* Espaciado entre las cajas */
+    width: 80px;
+    height: 80px;
+    border: 2px solid purple; /* Color naranja */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.icon-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.icon-box p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semitransparente */
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.progress-bar {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.progress-container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px 0;
+}
+
+.progress {
+    height: 20px;
+    background-color: #4caf50;
+    width: 50%; /* Puedes ajustar el porcentaje según el progreso del proyecto */
+}
+
+.view-button {
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* ... (código anterior) ... */
