@@ -1,0 +1,45 @@
+var taglines = [
+	// "why are you looking at my code",
+	"oh Holaaaa!",
+	"Hola Matias",
+	"<Programando>",
+	"Hoy me levante re loco",
+	"Nom Nom Nom",
+	"404", // 
+	"YOU DEAD",
+	"Esapmle te+t",
+	"E", // undertale
+	"Esto anda?",
+	"Epror",
+	"Apaguen el Server", // lia edit
+	"Se quemo la fuente",
+	"My little web site",
+	"BOOOOM!",
+	"Boo!",
+	"Popopop",
+	"McAfee", // hivecord
+	"0.2", // king gizzard
+	"Porfolio?",
+	"a Natbot no le gusta el sitio",
+	"Murio Github",
+	"Busquen mi Linkedin",
+	"Meeeeeh", // marcy
+	"Click Click",
+	"Pip Pup",
+	"Si la web no anda reinicie el router",
+	"Aprobe?",
+	"Hola Mama",
+	"Don't Click Me!",
+	"Tn5",
+	"New Natbot Update is coming", // nat bot
+	"pro tip: don't die",
+	"No hay BackUps",
+	"Borre la query",
+	"Soy Un Topo",
+];
+
+let randomTagline = taglines[Math.floor(Math.random() * taglines.length)];
+
+$(document).ready(function() {
+    $('#tagline').html(randomTagline);
+});

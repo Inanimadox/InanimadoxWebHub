@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)https://honiemun.com/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+
+	<!-- JQuery -->
+	<script src="./Honie_files/jquery.min.js.descarga"></script><style type="text/css" id="operaUserStyle"></style> 
+
+    <!-- Required meta tags -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Font Awesome -->
+	<link href="./Honie_files/all.min.css" rel="stylesheet">
+	<!-- Google Fonts -->
+	<link href="./Honie_files/css" rel="stylesheet">
+
+	<!-- MDB CSS -->
+	<link href="./Honie_files/mdb.min.css" rel="stylesheet">
+
+	<!-- Custom icons -->
+	<link rel="stylesheet" href="./Honie_files/icomoon.css">
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="./Honie_files/style.css">
+
+    <title>Inanimadox</title>
+	<link rel="icon" href="https://honiemun.com/images/favicon.ico" type="image/x-icon">
+	<meta name="description" content="Honie&#39;s little corner on cyberspace 🐝">
+	
+	<!-- Social media metadata -->
+	<meta property="og:image" content="images/cover.png">
+	<meta name="twitter:image" content="images/cover.png">	
+	
+  
+  <body>
+
+	<div class="heads-up" id="heads-up" hidden="">
+		<div class="card-heads-up card bg-dark">
+			<h1>just a heads-up</h1>
+
+			<p class="pt-3">
+				this page has links to adult sites.<br>
+				are you over eighteen years of age<br>
+				and okay with seeing some risqué content?<br>
+				<i>(otherwise, we'll hide 'em away from you!)</i>
+			</p>
+
+			<div class="row pt-4">
+				<div class="col-md-6">
+					<button type="button" class="btn btn-primary btn-heads-up" onclick="showFullPage(&#39;true&#39;)">show +18 content</button>
+				</div>
+				<div class="col-md-6">
+					<button type="button" class="btn btn-dark btn-heads-up" onclick="showFullPage(&#39;false&#39;)">hide +18 content</button>
+				</div>
+
+				<small style="color:#494545" class="pt-2">we use cookies to not show you this again<p></p>
+			</small></div><small style="color:#494545" class="pt-2">
+		</small></div><small style="color:#494545" class="pt-2">
+	</small></div><small style="color:#494545" class="pt-2">
+
+	<div class="" id="blurred">
+		<!-- Redirect notice -->
+		<div class="pb-2 pt-4" id="redirect-notice" style="display:none; background-color: #d11837">
+			<center>
+				<h6>honie.buzz is now honiemun.com! <i>(some stuff might be a little bit broken - hang on tight!)</i></h6>
+			</center>
+		</div>
+
+		<!-- Navbar -->
+		<div style="padding-bottom: 25px;">
+			<div id="toggle" class="toggle" onclick="toggleMode()">
+				<i class="fa fa-sun"></i>
+			</div>
+			<div class="container pb-3 pt-3">
+				<center>
+					<img src="./Honie_files/honielogo.png" alt="logo" style="width: 20em; height: auto;">
+					<h4 style="color: white" class="pt-2" id="tagline">Mati Test</h4>
+				</center>
+			</div>
+		</div>
+
+		<div class="main-container container">
+		<div class="row">
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-8">
+				
+
+				<div class="container">
+					<!-- Social Media -->
+					<div class="social-view">
+						<div class="socials socials-art">
+							<span class="socials-tag socials-art">art</span>
+							<a href="https://twitter.com/honiemun" data-mdb-tooltip-init="" title="the best hellsite to stumble upon my drawings on">
+								<i class="fab fa-twitter fa-3x socials-icon-art hvr-buzz-out"></i>
+							</a>
+							<a href="https://honiemun.newgrounds.com/" data-mdb-tooltip-init="" title="the gallery! every major piece, chronologically sorted">
+								<i class="icon-newgrounds fa-3x socials-icon-art hvr-buzz-out"></i>
+							</a>
+							<a href="https://instagram.com/honiemun" data-mdb-tooltip-init="" title="only safe for work pieces, ever-slightly inactive">
+								<i class="fab fa-instagram fa-3x socials-icon-art hvr-buzz-out"></i>
+							</a>
+						</div>
+						<div class="socials socials-media">
+							<span class="socials-tag socials-art">social</span>
+							<a href="https://twitter.com/tastelikehonie" data-mdb-tooltip-init="" title="shower thoughts and unhinged textposts">
+								<i class="fab fa-twitter fa-3x socials-icon-media hvr-buzz-out"></i>
+							</a>
+							<a href="https://hideout.honiemun.com/" data-mdb-tooltip-init="" title="mostly reblogs, with some hidden post nuggets along the rubble">
+								<i class="fab fa-tumblr fa-3x socials-icon-media hvr-buzz-out"></i>
+							</a>
+						</div>
+						<div class="socials socials-videos">
+							<span class="socials-tag socials-videos">streams</span>
+							<a href="https://www.twitch.tv/honiemun" data-mdb-tooltip-init="" title="sometimes i do event streams, mostly for my discord server. catch &#39;em here">
+								<i class="fab fa-twitch fa-3x socials-icon-videos hvr-buzz-out"></i>
+							</a>
+							<a href="https://www.youtube.com/@honiemun" data-mdb-tooltip-init="" title="project and event trailers, plus a vod archival for twitch">
+								<i class="fab fa-youtube fa-3x socials-icon-videos hvr-buzz-out"></i>
+							</a>
+						</div>
+						<div class="socials socials-code">
+							<span class="socials-tag socials-code">code</span>
+							<a href="https://honieware.itch.io/" data-mdb-tooltip-init="" title="bite sized, experimental browser games, mostly for game jams">
+								<i class="fab fa-itch-io fa-3x socials-icon-code hvr-buzz-out"></i>
+							</a>
+							<a href="https://github.com/honiemun" data-mdb-tooltip-init="" title="open source code projects">
+								<i class="fab fa-github fa-3x socials-icon-code hvr-buzz-out"></i>
+							</a>
+						</div>
+					</div>
+
+					<!-- Huge Button -->
+					
+					<!-- EDIT COMMS -->
+					<div class="col-md-12">
+						<a href="https://ko-fi.com/honie/commissions">
+							<div class="card bg-dark text-white image-container">
+								<img class="card-img" src="./Honie_files/comms.png" alt="Card image">
+								<div class="card-img-overlay d-flex flex-column">
+									<h1 class="card-title mt-auto">drawing comms</h1>
+									<p class="card-text">get yourself a custom drawing over at my ko-fi page</p>
+									<div class="row">
+										<div class="col-md-10">
+											<div class="progress" style="height: 22px;">
+												<div class="progress-bar bg-warning" role="progressbar" style="width: 5%;" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+											</div>
+										</div>
+										<div class="col-md-2">
+											<b class="slots">6 slots left</b>
+										</div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+
+					<!-- RETO -->
+					<!--
+					<div class="col-md-12">
+						<a href="https://top.gg/bot/591466921812164608">
+							<div class="card bg-dark text-white image-container">
+								<img class="card-img img-fluid headliner-card" src="images/reto-header.png" alt="Card image">
+								<div class="card-img-overlay d-flex flex-column">
+								</div>
+							</div>
+						</a>
+					</div>
+					-->
+					
+					<!-- COMBIES 2022
+					<!-- 
+					<div class="col-md-12">
+						<a href="https://twitch.tv/honiemun">
+							<div class="card bg-dark text-white image-container">
+								<img class="card-img img-fluid headliner-card" src="images/combies22.png" alt="Card image">
+								<div class="card-img-overlay d-flex flex-column">
+									<h1 class="card-title mt-auto">the combies 2022</h1>
+									<p class="card-text">awards in discord excellence. watch it live on twitch, on <b><span id="datestamp"></span> <span id="timestamp"></span></b> <i>(your timezone)</i></p>
+								</div>
+							</div>
+						</a>
+					</div>
+					-->
+
+					<!-- COMBIES 2021 -->
+					<!--
+					<div class="col-md-12">
+						<a href="https://youtu.be/RT7tb92eq8o">
+							<div class="card bg-dark text-white image-container">
+								<img class="card-img main-card" src="images/combies.jpg" alt="Card image">
+								<div class="card-img-overlay d-flex flex-column">
+									<h1 class="card-title mt-auto">the combies</h1>
+									<p class="card-text">discord's greatest awards show. uhm, probably</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					-->
+
+					<!-- EDIT COMMS -->
+					<!--
+					<div class="col-md-12">
+						<a href="https://ko-fi.com/honie/commissions">
+							<div class="card bg-dark text-white image-container">
+								<img class="card-img" src="images/editcommnsfw.png" alt="Card image">
+								<div class="card-img-overlay d-flex flex-column">
+									<h1 class="card-title mt-auto">edit commissions <span class="badge bg-danger">full</span></h1>
+									<p class="card-text">support me and get some top-quality roleplaying edits over at my ko-fi page</p>
+									<div class="progress" style="height: 15px;">
+										<div
+										class="progress-bar bg-warning"
+										role="progressbar"
+										style="width: 100%;"
+										aria-valuenow="100"
+										aria-valuemin="0"
+										aria-valuemax="100"
+										></div>
+									</div>
+								</div>
+							</div>
+						</a>
+					</div>
+					-->
+
+					<!-- BOARD SWEEPERS -->
+					<!--
+					<div class="col-md-12">
+						<a href="https://honieware.itch.io/board-sweepers-jam">
+							<div class="card bg-dark text-white image-container">
+								<img class="card-img card-gradient img-fluid headliner-card" src="images/boardsweep.png" alt="Card image">
+								<div class="card-img-overlay d-flex flex-column">
+									<h1 class="card-title mt-auto">board sweepers <span class="badge bg-warning">game jam</span></h1>
+									<p class="card-text">defeat the lesser board games and toss your way to victory</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					-->
+
+					<div class="row pt-3">
+						<div class="carousel-container">
+
+							<button id="slideBack" type="button" class="btn btn-primary btn-circle btn-carousel btn-left btn-xl"><i class="fas fa-arrow-left"></i></button>
+							<button id="slide" type="button" class="btn btn-primary btn-circle btn-carousel btn-right btn-xl"><i class="fas fa-arrow-right"></i></button>
+							
+							<div id="carousel">
+
+								<!-- RETO -->
+								<div class="item">
+									<a href="https://top.gg/bot/591466921812164608">
+										<div class="card bg-dark text-white image-container">
+											<img class="card-img-item card-gradient headliner-card" src="./Honie_files/reto.png" alt="Card image">
+											<div class="card-img-overlay d-flex flex-column">
+												<h2 class="card-title mt-auto">reto</h2>
+												<p class="card-text">karma &amp; starboard bot</p>
+											</div>
+										</div>
+									</a>
+								</div>
+
+								<!-- COMBIES 22 -->
+								<div class="item">
+									<a href="https://www.youtube.com/watch?v=XUXVpoHh8xc">
+										<div class="card bg-dark text-white image-container">
+											<img class="card-img-item card-gradient headliner-card" src="./Honie_files/combies22.png" alt="Card image">
+											<div class="card-img-overlay d-flex flex-column">
+												<h2 class="card-title mt-auto">the combies '22</h2>
+												<p class="card-text">awards in discord excellence</p>
+											</div>
+										</div>
+									</a>
+								</div>
+
+								<!-- BOARD SWEEPERS -->
+								<div class="item">
+									<a href="https://honieware.itch.io/board-sweepers-jam">
+										<div class="card bg-dark text-white image-container">
+											<img class="card-img-item card-gradient headliner-card" src="./Honie_files/boardsweep.png" alt="Card image">
+											<div class="card-img-overlay d-flex flex-column">
+												<h2 class="card-title mt-auto">board sweepers</h2>
+												<p class="card-text">dice-flinging horde action game</p>
+											</div>
+										</div>
+									</a>
+								</div>
+
+								<!-- ETHERJAM -->
+								<div class="item">
+									<a href="https://etherjam.itch.io/">
+										<div class="card bg-dark text-white image-container">
+											<img class="card-img-item card-gradient headliner-card" src="./Honie_files/etherjam.png" alt="Card image">
+											<div class="card-img-overlay d-flex flex-column">
+												<h2 class="card-title mt-auto">etherjam</h2>
+												<p class="card-text">game dev collective</p>
+											</div>
+										</div>
+									</a>
+								</div>
+
+								<!-- THE COMBIES 2021 -->
+								<div class="item">
+									<a href="https://youtu.be/RT7tb92eq8o">
+										<div class="card bg-dark text-white image-container">
+											<img class="card-img-item card-gradient headliner-card" src="./Honie_files/combies.jpg" alt="Card image">
+											<div class="card-img-overlay d-flex flex-column">
+												<h2 class="card-title mt-auto">the combies (2021)</h2>
+												<p class="card-text">hivecord's awards ceremony</p>
+											</div>
+										</div>
+									</a>
+								</div>
+
+								<!-- HONIE EDIT FOLDER -->
+								<div class="item">
+									<a href="https://drive.google.com/drive/folders/1Z-UMdpLaDEQfRCtz56cJg2pAQEswTHo3?usp=sharing">
+										<div class="card bg-dark text-white image-container">
+											<img class="card-img-item card-gradient headliner-card" src="./Honie_files/editfolder.png" alt="Card image">
+											<div class="card-img-overlay d-flex flex-column">
+												<h2 class="card-title mt-auto">honie's edit folder</h2>
+												<p class="card-text">roleplay edits, free-to-use</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Bio -->
+				<div class="container pt-5">
+					<div class="row d-flex justify-content-center align-items-center h-100">
+					<div class="col-11">
+						<figure class="note custom-quote p-4" id="custom-quote">
+						<blockquote class="blockquote description-text">
+							<p>
+							<b>on the internet, no one knows you're a bee.</b><br><br>
+							
+							hello! i'm honie - you might have arrived here for my silly drawings, but i'm a project-juggler at heart. a little bit of coding, some game design here, some video-making there...<br><br>
+
+							found my secluded little spot on the internet, it looks like! stay a while, and when you're ready to depart, use any of the links above to see what mischief i've gotten up to.
+							</p>
+						</blockquote>
+						</figure>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="pb-5"></div>
+
+			</div>
+		</div>
+	</div>
+
+	<script src="./Honie_files/cookies.js.descarga"></script>
+	<script src="./Honie_files/tagline.js.descarga"></script>
+	<script src="./Honie_files/redirect.js.descarga"></script>
+	<script src="./Honie_files/slider.js.descarga"></script>
+	<script src="./Honie_files/adult.js.descarga"></script>
+	<script src="./Honie_files/toggle.js.descarga"></script>
+	<script src="./Honie_files/timestamp.js.descarga"></script>
+	
+	<script src="./Honie_files/overlay-widget.js.descarga"></script>
+	<script>
+	kofiWidgetOverlay.draw('honie', {
+		'type': 'floating-chat',
+		'floating-chat.donateButton.text': 'Support me',
+		'floating-chat.donateButton.background-color': '#f45d22',
+		'floating-chat.donateButton.text-color': '#fff'
+	});
+	</script>
+	
+	
+
+</div></small><div id="kofi-widget-overlay-6a70f8cb-0404-48e5-a53e-2b43eab75f75"><div class="floatingchat-container-wrap" style="z-index: 10000;"><iframe class="floatingchat-container" style="" id="kofi-wo-containerkofi-widget-overlay-6a70f8cb-0404-48e5-a53e-2b43eab75f75" src="./Honie_files/saved_resource.html"></iframe></div><div class="floatingchat-container-wrap-mobi" style="z-index: 10000;"><iframe class="floatingchat-container-mobi" style="" id="kofi-wo-container-mobikofi-widget-overlay-6a70f8cb-0404-48e5-a53e-2b43eab75f75" src="./Honie_files/saved_resource(1).html"></iframe></div><div id="kofi-widget-overlay-6a70f8cb-0404-48e5-a53e-2b43eab75f75-kofi-popup-iframe" class="floating-chat-kofi-popup-iframe" style="z-index: 10000; height: 0px; width: 0px; opacity: 0; transition: all 0.6s ease 0s;"><div class="floating-chat-kofi-popup-iframe-notice"><a href="https://ko-fi.com/honie" target="_blank" class="kfds-text-is-link-dark">ko-fi.com/honie</a></div><div class="floating-chat-kofi-popup-iframe-closer"><span><svg height="0px" width="15px"><line x1="2" y1="8" x2="13" y2="18" style="stroke:#000; stroke-width:3"></line><line x1="13" y1="8" x2="2" y2="18" style="stroke:#000; stroke-width:3"></line></svg></span></div><div class="floating-chat-kofi-popup-iframe-container" id="kofi-widget-overlay-6a70f8cb-0404-48e5-a53e-2b43eab75f75-kofi-popup-iframepopup-iframe-container" style="height: 100%;"></div></div><div id="kofi-widget-overlay-6a70f8cb-0404-48e5-a53e-2b43eab75f75-kofi-popup-iframe-mobi" class="floating-chat-kofi-popup-iframe-mobi" style="z-index: 10000; height: 0px; width: 0px; opacity: 0; transition: all 0.6s ease 0s;"><div class="floating-chat-kofi-popup-iframe-notice-mobi"><a href="https://ko-fi.com/honie" target="_blank" class="kfds-text-is-link-dark">ko-fi.com/honie</a></div><div class="floating-chat-kofi-popup-iframe-closer-mobi"><span><svg height="0px" width="15px"><line x1="2" y1="8" x2="13" y2="18" style="stroke:#000; stroke-width:3"></line><line x1="13" y1="8" x2="2" y2="18" style="stroke:#000; stroke-width:3"></line></svg></span></div><div class="floating-chat-kofi-popup-iframe-container-mobi" id="kofi-widget-overlay-6a70f8cb-0404-48e5-a53e-2b43eab75f75-kofi-popup-iframe-mobipopup-iframe-container-mobi" style="height: 100%;"></div></div></div></body></html>
